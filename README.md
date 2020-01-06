@@ -19,16 +19,9 @@ prerequisite Installation : Python 3.6 and higher
             Switch to the location of the downloaded directory using  cmd
 
 ##### Step 5 --> ##### 
-            The structure of the folder could look like this :
-                06-01-2020  23:01    <DIR>          .
-                06-01-2020  23:01    <DIR>          ..
-                06-01-2020  22:29    <DIR>          builder
-                06-01-2020  23:01           143,360 db.sqlite3
-                06-01-2020  22:29    <DIR>          HTML_files
-                06-01-2020  22:29               626 manage.py
-                06-01-2020  22:29                21 README.md
-                06-01-2020  22:29    <DIR>          resume
-  
+            Install the dependencies by following command  "pip install -r requirements.txt"
+          
+
 ##### Step 6 --> #####
             Make migrations by typing "python manage.py migrate"
             
