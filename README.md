@@ -6,8 +6,7 @@ Assignment
 
 prerequisite Installation : Python 3.6 and higher
 
-##### Step 1 --> #####
-            Open CMD and create virtualenvironment by typing the command "mkvirtualenv name_of_your_choise" and hit enter
+##### Step 1 --> ##### Open CMD and create virtualenvironment by typing the command "mkvirtualenv name_of_your_choise" and hit enter
 
 # Step 2 --> 
             type "workon name_of_environment" in this case name is "name_of_your_choise"
