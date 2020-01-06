@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Base HTML page</title>
+</head>
+<body>
+    <h3>This page can Contain Multiple Input fields </h3>
+    <h1><form action="view_resume" method="POST">
+        {% csrf_token %}
+        <input type="text" placeholder="Name" name="name">
+        <input type="text" placeholder="Age" name="age">
+        <input type="submit" placeholder="create resume">
+    </form>
+</h1>
+<h2>After Clicking Submit the input data will be saved in sqlite Database</h2>
+</body>
+</html>

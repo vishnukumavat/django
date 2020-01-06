@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .linkButton { 
+            background: none;
+            border: none;
+            color: #0066ff;
+            text-decoration: underline;
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose Templates</h1>
+    <form method="POST" action="Base">
+        {% csrf_token %}
+        {% for items in list %}
+            <h2><button class="linkButton" type="submit" name={{items}}>Imagine this is template</button></h2><br>
+        {% endfor %}
+    </form>
+</body>
+</html>
