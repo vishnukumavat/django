@@ -33,8 +33,8 @@ prerequisite Installation : Python 3.6 and higher
             Make migrations by typing "python manage.py migrate"
             
             
-##### Step 7 -->#####
+##### Step 7 --> #####
             Type "python manage.py runserver" in cmd
             
-##### Step 8 -->#####
+##### Step 8 --> #####
             Access the UserDatabase by going to admin panel type URL in browser "localhost:8000/admin"
